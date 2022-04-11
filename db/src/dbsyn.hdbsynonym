@@ -1,0 +1,74 @@
+{
+  "finance.db::V_ACDOCA": {
+    "target": {
+      "object": "V_ACDOCA",
+      "schema": "S4P_SAPHANADB"
+    }
+  },
+  "finance.db::V_EBAN": {
+    "target": {
+      "object": "V_EBAN",
+      "schema": "S4P_SAPHANADB"
+    }
+  },
+  "finance.db::V_EBKN": {
+    "target": {
+      "object": "V_EBKN",
+      "schema": "S4P_SAPHANADB"
+    }
+  },
+  "finance.db::V_BSID": {
+    "target": {
+      "object": "V_BSID",
+      "schema": "S4P_SAPHANADB"
+    }
+  },
+  "finance.db::V_SKB1": {
+    "target": {
+      "object": "V_SKB1",
+      "schema": "S4P_SAPHANADB"
+    }
+  },
+  "finance.db::V_T001": {
+    "target": {
+      "object": "V_T001",
+      "schema": "S4P_SAPHANADB"
+    }
+  },
+  "finance.db::V_T053S": {
+    "target": {
+      "object": "V_T053S",
+      "schema": "S4P_SAPHANADB"
+    }
+  },
+  "finance.db::V_TKA02": {
+    "target": {
+      "object": "V_TKA02",
+      "schema": "S4P_SAPHANADB"
+    }
+  },
+  "finance.db::V_VFKK": {
+    "target": {
+      "object": "V_VFKK",
+      "schema": "S4P_SAPHANADB"
+    }
+  },
+  "finance.db::V_VTTK": {
+    "target": {
+      "object": "V_VTTK",
+      "schema": "S4P_SAPHANADB"
+    }
+  },
+  "finance.db::V_VTTP": {
+    "target": {
+      "object": "V_VTTP",
+      "schema": "S4P_SAPHANADB"
+    }
+  },
+  "finance.db::V_VTTS": {
+    "target": {
+      "object": "V_VTTS",
+      "schema": "S4P_SAPHANADB"
+    }
+  }
+}
