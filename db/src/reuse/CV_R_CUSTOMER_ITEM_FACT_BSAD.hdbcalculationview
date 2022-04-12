@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="finance.db.reuse::CV_R_CUSTOMER_ITEM_FACT_BSID" applyPrivilegeType="NONE" dataCategory="CUBE" schemaVersion="3.0" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="finance.db.reuse::CV_R_CUSTOMER_ITEM_FACT_BSAD" applyPrivilegeType="NONE" dataCategory="CUBE" schemaVersion="3.0" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
 <descriptions defaultDescription="Customer Fact (BSID)"/>
 <localVariables/>
 <variableMappings/>
 <dataSources>
-  <DataSource id="finance.db.base::CV_B_ACCTBSID">
-    <resourceUri>finance.db.base::CV_B_ACCTBSID</resourceUri>
+  <DataSource id="finance.db.base::CV_B_ACCTBSAD">
+    <resourceUri>finance.db.base::CV_B_ACCTBSAD</resourceUri>
   </DataSource>
   <DataSource id="finance.db::V_T053S">
     <resourceUri>finance.db::V_T053S</resourceUri>
@@ -21,7 +21,7 @@
   </DataSource>
 </dataSources>
 <calculationViews>
-  <calculationView xsi:type="Calculation:ProjectionView" id="BSID">
+  <calculationView xsi:type="Calculation:ProjectionView" id="BSAD">
     <viewAttributes>
       <viewAttribute id="CLIENT"/>
       <viewAttribute id="COMP_CODE_ID"/>
@@ -89,7 +89,7 @@
       <viewAttribute id="ACCTN_DET_ID"/>
     </viewAttributes>
     <calculatedViewAttributes/>
-    <input node="finance.db.base::CV_B_ACCTBSID"/>
+    <input node="finance.db.base::CV_B_ACCTBSAD"/>
   </calculationView>
   <calculationView xsi:type="Calculation:ProjectionView" id="T053S">
     <viewAttributes>
@@ -141,7 +141,7 @@
       <mapping xsi:type="Calculation:AttributeMapping" target="ACCTNG_CLERK_ID" source="BUSAB"/>
     </input>
   </calculationView>
-  <calculationView xsi:type="Calculation:JoinView" id="J1_1" cardinality="CN_1" joinType="leftOuter" multiJoinNode="J1" multiJoinCentralTable="BSID" multiJoinOrder="Outside In">
+  <calculationView xsi:type="Calculation:JoinView" id="J1_1" cardinality="CN_1" joinType="leftOuter" multiJoinNode="J1" multiJoinCentralTable="BSAD" multiJoinOrder="Outside In">
     <viewAttributes>
       <viewAttribute id="CLIENT"/>
       <viewAttribute id="COMP_CODE_ID"/>
@@ -210,7 +210,7 @@
       <viewAttribute id="ACCTNG_CLERK_ID"/>
     </viewAttributes>
     <calculatedViewAttributes/>
-    <input node="BSID">
+    <input node="BSAD">
       <mapping xsi:type="Calculation:AttributeMapping" target="CLIENT" source="CLIENT"/>
       <mapping xsi:type="Calculation:AttributeMapping" target="COMP_CODE_ID" source="COMP_CODE_ID"/>
       <mapping xsi:type="Calculation:AttributeMapping" target="CUSTOMER_ID" source="CUSTOMER_ID"/>
@@ -286,7 +286,7 @@
     <joinAttribute name="COMP_CODE_ID"/>
     <joinAttribute name="GL_ACCT_NO"/>
   </calculationView>
-  <calculationView xsi:type="Calculation:JoinView" id="J1_2" cardinality="CN_1" joinType="inner" multiJoinNode="J1" multiJoinCentralTable="BSID" multiJoinOrder="Outside In">
+  <calculationView xsi:type="Calculation:JoinView" id="J1_2" cardinality="CN_1" joinType="inner" multiJoinNode="J1" multiJoinCentralTable="BSAD" multiJoinOrder="Outside In">
     <viewAttributes>
       <viewAttribute id="CLIENT"/>
       <viewAttribute id="COMP_CODE_ID"/>
@@ -435,7 +435,7 @@
     <joinAttribute name="CLIENT"/>
     <joinAttribute name="COMP_CODE_ID"/>
   </calculationView>
-  <calculationView xsi:type="Calculation:JoinView" id="J1_3" cardinality="CN_1" joinType="leftOuter" multiJoinNode="J1" multiJoinCentralTable="BSID" multiJoinOrder="Outside In">
+  <calculationView xsi:type="Calculation:JoinView" id="J1_3" cardinality="CN_1" joinType="leftOuter" multiJoinNode="J1" multiJoinCentralTable="BSAD" multiJoinOrder="Outside In">
     <viewAttributes>
       <viewAttribute id="CLIENT"/>
       <viewAttribute id="COMP_CODE_ID"/>
@@ -586,7 +586,7 @@
     <joinAttribute name="CLIENT"/>
     <joinAttribute name="COMP_CODE_ID"/>
   </calculationView>
-  <calculationView xsi:type="Calculation:JoinView" id="J1_4" cardinality="C1_1" joinType="leftOuter" multiJoinNode="J1" multiJoinCentralTable="BSID" multiJoinOrder="Outside In">
+  <calculationView xsi:type="Calculation:JoinView" id="J1_4" cardinality="C1_1" joinType="leftOuter" multiJoinNode="J1" multiJoinCentralTable="BSAD" multiJoinOrder="Outside In">
     <viewAttributes>
       <viewAttribute id="CLIENT"/>
       <viewAttribute id="COMP_CODE_ID"/>
@@ -985,7 +985,7 @@
       <keyCalculation datatype="DECIMAL" expressionLanguage="COLUMN_ENGINE" length="13" scale="2">
         <formula>IF( &quot;DEB_CRE_IND&quot; = 'H' , &quot;LC_AMOUNT&quot; * -1, &quot;LC_AMOUNT&quot;)</formula>
       </keyCalculation>
-      </calculatedAttribute>
+    </calculatedAttribute>
   </calculatedAttributes>
   <baseMeasures>
     <measure id="LC_AMOUNT" order="22" aggregationType="sum" measureType="simple">
@@ -1054,7 +1054,7 @@
       <rectangleSize width="160"/>
     </shape>
   
-    <shape expanded="true" modelObjectName="BSID" modelObjectNameSpace="CalculationView">
+    <shape expanded="true" modelObjectName="BSAD" modelObjectNameSpace="CalculationView">
       <upperLeftCorner x="-195" y="445"/>
       <rectangleSize height="30" width="160"/>
     </shape>
@@ -1090,7 +1090,7 @@
       <upperLeftCorner x="366" y="232"/>
       <rectangleSize width="198"/>
     </shape>
-    <shape modelObjectName="BSID" modelObjectNameSpace="J1" modelObjectType="JoinNodeInput" multiJoinViewNodeName="J1">
+    <shape modelObjectName="BSAD" modelObjectNameSpace="J1" modelObjectType="JoinNodeInput" multiJoinViewNodeName="J1">
       <upperLeftCorner x="20" y="30"/>
       <rectangleSize width="198"/>
     </shape>

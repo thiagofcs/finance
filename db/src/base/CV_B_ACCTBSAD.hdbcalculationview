@@ -12,11 +12,11 @@
 <logicalModel id="finance.db::V_BSAD">
   <attributes>
     <attribute id="CLIENT" order="1" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="MANDT"/>
+      <descriptions defaultDescription="CLIENT"/>
       <keyMapping columnObjectName="V_BSAD" columnName="MANDT"/>
     </attribute>
     <attribute id="COMP_CODE_ID" order="2" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="BUKRS"/>
+      <descriptions defaultDescription="COMP_CODE_ID"/>
       <keyMapping columnObjectName="V_BSAD" columnName="BUKRS"/>
     </attribute>
     <attribute id="CUSTOMER_ID" order="3" displayAttribute="false" attributeHierarchyActive="false">
