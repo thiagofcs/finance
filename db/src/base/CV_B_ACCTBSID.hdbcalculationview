@@ -119,20 +119,20 @@
       <descriptions defaultDescription="Order Number"/>
       <keyMapping columnObjectName="V_BSID" columnName="AUFNR"/>
     </attribute>
-    <attribute id="ANLN1" order="28" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="ANLN1"/>
+    <attribute id="MAIN_ASSET_NO" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Main Asset Number"/>
       <keyMapping columnObjectName="V_BSID" columnName="ANLN1"/>
     </attribute>
-    <attribute id="ANLN2" order="29" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="ANLN2"/>
+    <attribute id="ASSET_SUBNO" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Asset Sub Number"/>
       <keyMapping columnObjectName="V_BSID" columnName="ANLN2"/>
     </attribute>
-    <attribute id="SAKNR" order="30" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="SAKNR"/>
+    <attribute id="GL_ACCT_NO" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="G/L Account Number"/>
       <keyMapping columnObjectName="V_BSID" columnName="SAKNR"/>
     </attribute>
-    <attribute id="HKONT" order="31" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="HKONT"/>
+    <attribute id="GL_ACCOUNT" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="General Ledger Account"/>
       <keyMapping columnObjectName="V_BSID" columnName="HKONT"/>
     </attribute>
     <attribute id="ZFBDT" order="32" displayAttribute="false" attributeHierarchyActive="false">
