@@ -70,5 +70,11 @@
       "object": "V_VTTS",
       "schema": "S4P_SAPHANADB"
     }
+  },
+  "finance.db::V_BSAD": {
+    "target": {
+      "object": "V_BSAD",
+      "schema": "S4P_SAPHANADB"
+    }
   }
 }
