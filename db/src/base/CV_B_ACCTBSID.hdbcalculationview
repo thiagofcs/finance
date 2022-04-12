@@ -135,84 +135,84 @@
       <descriptions defaultDescription="General Ledger Account"/>
       <keyMapping columnObjectName="V_BSID" columnName="HKONT"/>
     </attribute>
-    <attribute id="ZFBDT" order="32" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="ZFBDT"/>
+    <attribute id="BASELINE_DATE" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Baseline Date"/>
       <keyMapping columnObjectName="V_BSID" columnName="ZFBDT"/>
     </attribute>
-    <attribute id="ZTERM" order="33" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="ZTERM"/>
+    <attribute id="PAYMENT_TERM_KEY" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Payment Term Key"/>
       <keyMapping columnObjectName="V_BSID" columnName="ZTERM"/>
     </attribute>
-    <attribute id="ZBD1T" order="34" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="ZBD1T"/>
+    <attribute id="CASH_DISC_D1" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Cash Discount Days 1"/>
       <keyMapping columnObjectName="V_BSID" columnName="ZBD1T"/>
     </attribute>
-    <attribute id="ZBD2T" order="35" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="ZBD2T"/>
+    <attribute id="CASH_DISC_D2" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Cash Discount Days 2"/>
       <keyMapping columnObjectName="V_BSID" columnName="ZBD2T"/>
     </attribute>
-    <attribute id="ZBD3T" order="36" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="ZBD3T"/>
+    <attribute id="NET_DUE_PERIOD" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Net Payment Terms Period"/>
       <keyMapping columnObjectName="V_BSID" columnName="ZBD3T"/>
     </attribute>
-    <attribute id="ZBD1P" order="37" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="ZBD1P"/>
+    <attribute id="CASH_DISC_PRCTN_1" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Cash discount percentage 1"/>
       <keyMapping columnObjectName="V_BSID" columnName="ZBD1P"/>
     </attribute>
-    <attribute id="ZBD2P" order="38" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="ZBD2P"/>
+    <attribute id="CASH_DISC_PRCTN_2" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Cash Discount Percentage 2"/>
       <keyMapping columnObjectName="V_BSID" columnName="ZBD2P"/>
     </attribute>
-    <attribute id="SKFBT" order="39" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="SKFBT"/>
+    <attribute id="DC_AMOUNT_FOR_CD" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Eligible Amount for Cash Discount in DC"/>
       <keyMapping columnObjectName="V_BSID" columnName="SKFBT"/>
     </attribute>
-    <attribute id="SKNTO" order="40" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="SKNTO"/>
+    <attribute id="LC_CASH_DISC_AMOUNT" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Cash Discount Amount in Local Currency"/>
       <keyMapping columnObjectName="V_BSID" columnName="SKNTO"/>
     </attribute>
-    <attribute id="WSKTO" order="41" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="WSKTO"/>
+    <attribute id="DC_CASH_DISC_AMOUNT" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Cash Discount Amount in Document Currency"/>
       <keyMapping columnObjectName="V_BSID" columnName="WSKTO"/>
     </attribute>
-    <attribute id="ZLSCH" order="42" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="ZLSCH"/>
+    <attribute id="PAYMENT_METHOD" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Payment Method"/>
       <keyMapping columnObjectName="V_BSID" columnName="ZLSCH"/>
     </attribute>
-    <attribute id="ZLSPR" order="43" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="ZLSPR"/>
+    <attribute id="PAYMENT_BLCK_KEY" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Payment Block Key"/>
       <keyMapping columnObjectName="V_BSID" columnName="ZLSPR"/>
     </attribute>
-    <attribute id="HBKID" order="44" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="HBKID"/>
+    <attribute id="BANK_ID_HOUSE" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="House Bank ID"/>
       <keyMapping columnObjectName="V_BSID" columnName="HBKID"/>
     </attribute>
-    <attribute id="REBZG" order="45" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="REBZG"/>
+    <attribute id="INVOICE_ID" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Invoice ID"/>
       <keyMapping columnObjectName="V_BSID" columnName="REBZG"/>
     </attribute>
-    <attribute id="XZAHL" order="46" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="XZAHL"/>
+    <attribute id="PAYMENT_FLAG" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Payment Flag"/>
       <keyMapping columnObjectName="V_BSID" columnName="XZAHL"/>
     </attribute>
-    <attribute id="BSTAT" order="47" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="BSTAT"/>
+    <attribute id="DOCUMENT_STATUS" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Document Status"/>
       <keyMapping columnObjectName="V_BSID" columnName="BSTAT"/>
     </attribute>
-    <attribute id="RSTGR" order="48" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="RSTGR"/>
+    <attribute id="PAYMENT_REAS_CODE" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Payment Reason Code ID"/>
       <keyMapping columnObjectName="V_BSID" columnName="RSTGR"/>
     </attribute>
-    <attribute id="PROJK" order="49" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="PROJK"/>
+    <attribute id="WBS_ELEMNT" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WBS Element"/>
       <keyMapping columnObjectName="V_BSID" columnName="PROJK"/>
     </attribute>
-    <attribute id="XRAGL" order="50" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="XRAGL"/>
+    <attribute id="REVERSED_CLEARING" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Reversed Clearing Flag"/>
       <keyMapping columnObjectName="V_BSID" columnName="XRAGL"/>
     </attribute>
-    <attribute id="XSTOV" order="51" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="XSTOV"/>
+    <attribute id="REVERSAL_DOC_FLAG" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Document is Flagged for Reversal"/>
       <keyMapping columnObjectName="V_BSID" columnName="XSTOV"/>
     </attribute>
     <attribute id="PSWSL" order="52" displayAttribute="false" attributeHierarchyActive="false">
@@ -223,48 +223,48 @@
       <descriptions defaultDescription="PSWBT"/>
       <keyMapping columnObjectName="V_BSID" columnName="PSWBT"/>
     </attribute>
-    <attribute id="VBEL2" order="54" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="VBEL2"/>
+    <attribute id="SALES_DOCUMENT_NO" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Sales Document Number"/>
       <keyMapping columnObjectName="V_BSID" columnName="VBEL2"/>
     </attribute>
-    <attribute id="POSN2" order="55" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="POSN2"/>
+    <attribute id="SALES_DOCUMENT_ITM" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Sales Document Item"/>
       <keyMapping columnObjectName="V_BSID" columnName="POSN2"/>
     </attribute>
-    <attribute id="GEBER" order="56" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="GEBER"/>
+    <attribute id="FUND" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Fund"/>
       <keyMapping columnObjectName="V_BSID" columnName="GEBER"/>
     </attribute>
-    <attribute id="XNEGP" order="57" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="XNEGP"/>
+    <attribute id="NEGATIVE_PSTNG_FLG" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Negative Posting Flag"/>
       <keyMapping columnObjectName="V_BSID" columnName="XNEGP"/>
     </attribute>
-    <attribute id="KOSTL" order="58" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="KOSTL"/>
+    <attribute id="COST_CENTER" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Cost Center"/>
       <keyMapping columnObjectName="V_BSID" columnName="KOSTL"/>
     </attribute>
-    <attribute id="KKBER" order="59" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="KKBER"/>
+    <attribute id="CREDIT_CONTROL_AREA" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Credit Control Area"/>
       <keyMapping columnObjectName="V_BSID" columnName="KKBER"/>
     </attribute>
-    <attribute id="PRCTR" order="60" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="PRCTR"/>
+    <attribute id="PROFIT_CENTER" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Profit Center"/>
       <keyMapping columnObjectName="V_BSID" columnName="PRCTR"/>
     </attribute>
-    <attribute id="KIDNO" order="61" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="KIDNO"/>
+    <attribute id="PAYMENT_REF" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Payment Reference"/>
       <keyMapping columnObjectName="V_BSID" columnName="KIDNO"/>
     </attribute>
     <attribute id="GRANT_NBR" order="62" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="GRANT_NBR"/>
+      <descriptions defaultDescription="Grant"/>
       <keyMapping columnObjectName="V_BSID" columnName="GRANT_NBR"/>
     </attribute>
-    <attribute id="FKBER" order="63" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="FKBER"/>
+    <attribute id="FUNCTIONAL_AREA" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Functional Area"/>
       <keyMapping columnObjectName="V_BSID" columnName="FKBER"/>
     </attribute>
-    <attribute id="HKTID" order="64" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="HKTID"/>
+    <attribute id="ACCTN_DET_ID" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ID for Account Details"/>
       <keyMapping columnObjectName="V_BSID" columnName="HKTID"/>
     </attribute>
   </attributes>
@@ -280,4 +280,4 @@
     </shape>
   </shapes>
 </layout>
-</Calculation:scenario>
+</Calculation:scenario> 
