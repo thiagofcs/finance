@@ -11,207 +11,207 @@
 <calculationViews/>
 <logicalModel id="finance.db::V_BSAD">
   <attributes>
-    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="CLIENT" order="1" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="MANDT"/>
       <keyMapping columnObjectName="V_BSAD" columnName="MANDT"/>
     </attribute>
-    <attribute id="BUKRS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="COMP_CODE_ID" order="2" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="BUKRS"/>
       <keyMapping columnObjectName="V_BSAD" columnName="BUKRS"/>
     </attribute>
-    <attribute id="KUNNR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="CUSTOMER_ID" order="3" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="KUNNR"/>
       <keyMapping columnObjectName="V_BSAD" columnName="KUNNR"/>
     </attribute>
-    <attribute id="UMSKS" order="4" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="SPECL_GL_TR_TYPE" order="4" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="UMSKS"/>
       <keyMapping columnObjectName="V_BSAD" columnName="UMSKS"/>
     </attribute>
-    <attribute id="UMSKZ" order="5" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="SPECL_GL_ID" order="5" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="UMSKZ"/>
       <keyMapping columnObjectName="V_BSAD" columnName="UMSKZ"/>
     </attribute>
-    <attribute id="AUGDT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="CLEARED_DATE" order="6" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="AUGDT"/>
       <keyMapping columnObjectName="V_BSAD" columnName="AUGDT"/>
     </attribute>
-    <attribute id="AUGBL" order="7" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="CLEARING_DOC_ID" order="7" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="AUGBL"/>
       <keyMapping columnObjectName="V_BSAD" columnName="AUGBL"/>
     </attribute>
-    <attribute id="ZUONR" order="8" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="ASSIGN_NO" order="8" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="ZUONR"/>
       <keyMapping columnObjectName="V_BSAD" columnName="ZUONR"/>
     </attribute>
-    <attribute id="GJAHR" order="9" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="FISCAL_YEAR" order="9" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="GJAHR"/>
       <keyMapping columnObjectName="V_BSAD" columnName="GJAHR"/>
     </attribute>
-    <attribute id="BELNR" order="10" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="ACCTN_DOC_NO" order="10" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="BELNR"/>
       <keyMapping columnObjectName="V_BSAD" columnName="BELNR"/>
     </attribute>
-    <attribute id="BUZEI" order="11" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="LINE_ITEM_NO" order="11" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="BUZEI"/>
       <keyMapping columnObjectName="V_BSAD" columnName="BUZEI"/>
     </attribute>
-    <attribute id="BUDAT" order="12" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="POSTING_DATE" order="12" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="BUDAT"/>
       <keyMapping columnObjectName="V_BSAD" columnName="BUDAT"/>
     </attribute>
-    <attribute id="BLDAT" order="13" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="DOC_DATE" order="13" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="BLDAT"/>
       <keyMapping columnObjectName="V_BSAD" columnName="BLDAT"/>
     </attribute>
-    <attribute id="CPUDT" order="14" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="ENTRY_DATE" order="14" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="CPUDT"/>
       <keyMapping columnObjectName="V_BSAD" columnName="CPUDT"/>
     </attribute>
-    <attribute id="WAERS" order="15" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="CURRENCY_KEY" order="15" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="WAERS"/>
       <keyMapping columnObjectName="V_BSAD" columnName="WAERS"/>
     </attribute>
-    <attribute id="XBLNR" order="16" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="REF_DOC_NO" order="16" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="XBLNR"/>
       <keyMapping columnObjectName="V_BSAD" columnName="XBLNR"/>
     </attribute>
-    <attribute id="BLART" order="17" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="DOC_TYPE" order="17" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="BLART"/>
       <keyMapping columnObjectName="V_BSAD" columnName="BLART"/>
     </attribute>
-    <attribute id="MONAT" order="18" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="FISC_PERIOD" order="18" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="MONAT"/>
       <keyMapping columnObjectName="V_BSAD" columnName="MONAT"/>
     </attribute>
-    <attribute id="BSCHL" order="19" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="POSTING_KEY" order="19" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="BSCHL"/>
       <keyMapping columnObjectName="V_BSAD" columnName="BSCHL"/>
     </attribute>
-    <attribute id="SHKZG" order="20" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="DEB_CRE_IND" order="20" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="SHKZG"/>
       <keyMapping columnObjectName="V_BSAD" columnName="SHKZG"/>
     </attribute>
-    <attribute id="GSBER" order="21" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="BUSINESS_AREA" order="21" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="GSBER"/>
       <keyMapping columnObjectName="V_BSAD" columnName="GSBER"/>
     </attribute>
-    <attribute id="DMBTR" order="22" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="LC_AMOUNT" order="22" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="DMBTR"/>
       <keyMapping columnObjectName="V_BSAD" columnName="DMBTR"/>
     </attribute>
-    <attribute id="WRBTR" order="23" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="DC_AMOUNT" order="23" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="WRBTR"/>
       <keyMapping columnObjectName="V_BSAD" columnName="WRBTR"/>
     </attribute>
-    <attribute id="MWSTS" order="24" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="LC_TAX_AMOUNT" order="24" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="MWSTS"/>
       <keyMapping columnObjectName="V_BSAD" columnName="MWSTS"/>
     </attribute>
-    <attribute id="WMWST" order="25" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="DC_TAX_AMOUNT" order="25" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="WMWST"/>
       <keyMapping columnObjectName="V_BSAD" columnName="WMWST"/>
     </attribute>
-    <attribute id="SGTXT" order="26" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="ITEM_TEXT" order="26" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="SGTXT"/>
       <keyMapping columnObjectName="V_BSAD" columnName="SGTXT"/>
     </attribute>
-    <attribute id="AUFNR" order="27" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="ORDER_NO" order="27" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="AUFNR"/>
       <keyMapping columnObjectName="V_BSAD" columnName="AUFNR"/>
     </attribute>
-    <attribute id="ANLN1" order="28" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="MAIN_ASSET_NO" order="28" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="ANLN1"/>
       <keyMapping columnObjectName="V_BSAD" columnName="ANLN1"/>
     </attribute>
-    <attribute id="ANLN2" order="29" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="ASSET_SUBNO" order="29" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="ANLN2"/>
       <keyMapping columnObjectName="V_BSAD" columnName="ANLN2"/>
     </attribute>
-    <attribute id="SAKNR" order="30" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="GL_ACCT_NO" order="30" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="SAKNR"/>
       <keyMapping columnObjectName="V_BSAD" columnName="SAKNR"/>
     </attribute>
-    <attribute id="HKONT" order="31" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="GL_ACCOUNT" order="31" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="HKONT"/>
       <keyMapping columnObjectName="V_BSAD" columnName="HKONT"/>
     </attribute>
-    <attribute id="ZFBDT" order="32" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="BASELINE_DATE" order="32" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="ZFBDT"/>
       <keyMapping columnObjectName="V_BSAD" columnName="ZFBDT"/>
     </attribute>
-    <attribute id="ZTERM" order="33" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="PAYMENT_TERM_KEY" order="33" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="ZTERM"/>
       <keyMapping columnObjectName="V_BSAD" columnName="ZTERM"/>
     </attribute>
-    <attribute id="ZBD1T" order="34" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="CASH_DISC_D1" order="34" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="ZBD1T"/>
       <keyMapping columnObjectName="V_BSAD" columnName="ZBD1T"/>
     </attribute>
-    <attribute id="ZBD2T" order="35" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="CASH_DISC_D2" order="35" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="ZBD2T"/>
       <keyMapping columnObjectName="V_BSAD" columnName="ZBD2T"/>
     </attribute>
-    <attribute id="ZBD3T" order="36" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="NET_DUE_PERIOD" order="36" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="ZBD3T"/>
       <keyMapping columnObjectName="V_BSAD" columnName="ZBD3T"/>
     </attribute>
-    <attribute id="ZBD1P" order="37" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="CASH_DISC_PRCTN_1" order="37" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="ZBD1P"/>
       <keyMapping columnObjectName="V_BSAD" columnName="ZBD1P"/>
     </attribute>
-    <attribute id="ZBD2P" order="38" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="CASH_DISC_PRCTN_2" order="38" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="ZBD2P"/>
       <keyMapping columnObjectName="V_BSAD" columnName="ZBD2P"/>
     </attribute>
-    <attribute id="SKFBT" order="39" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="DC_AMOUNT_FOR_CD" order="39" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="SKFBT"/>
       <keyMapping columnObjectName="V_BSAD" columnName="SKFBT"/>
     </attribute>
-    <attribute id="SKNTO" order="40" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="LC_CASH_DISC_AMOUNT" order="40" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="SKNTO"/>
       <keyMapping columnObjectName="V_BSAD" columnName="SKNTO"/>
     </attribute>
-    <attribute id="WSKTO" order="41" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="DC_CASH_DISC_AMOUNT" order="41" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="WSKTO"/>
       <keyMapping columnObjectName="V_BSAD" columnName="WSKTO"/>
     </attribute>
-    <attribute id="ZLSCH" order="42" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="PAYMENT_METHOD" order="42" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="ZLSCH"/>
       <keyMapping columnObjectName="V_BSAD" columnName="ZLSCH"/>
     </attribute>
-    <attribute id="ZLSPR" order="43" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="PAYMENT_BLCK_KEY" order="43" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="ZLSPR"/>
       <keyMapping columnObjectName="V_BSAD" columnName="ZLSPR"/>
     </attribute>
-    <attribute id="HBKID" order="44" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="BANK_ID_HOUSE" order="44" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="HBKID"/>
       <keyMapping columnObjectName="V_BSAD" columnName="HBKID"/>
     </attribute>
-    <attribute id="REBZG" order="45" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="INVOICE_ID" order="45" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="REBZG"/>
       <keyMapping columnObjectName="V_BSAD" columnName="REBZG"/>
     </attribute>
-    <attribute id="XZAHL" order="46" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="PAYMENT_FLAG" order="46" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="XZAHL"/>
       <keyMapping columnObjectName="V_BSAD" columnName="XZAHL"/>
     </attribute>
-    <attribute id="BSTAT" order="47" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="DOCUMENT_STATUS" order="47" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="BSTAT"/>
       <keyMapping columnObjectName="V_BSAD" columnName="BSTAT"/>
     </attribute>
-    <attribute id="RSTGR" order="48" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="PAYMENT_REAS_CODE" order="48" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="RSTGR"/>
       <keyMapping columnObjectName="V_BSAD" columnName="RSTGR"/>
     </attribute>
-    <attribute id="PROJK" order="49" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="WBS_ELEMNT" order="49" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="PROJK"/>
       <keyMapping columnObjectName="V_BSAD" columnName="PROJK"/>
     </attribute>
-    <attribute id="XRAGL" order="50" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="REVERSED_CLEARING" order="50" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="XRAGL"/>
       <keyMapping columnObjectName="V_BSAD" columnName="XRAGL"/>
     </attribute>
-    <attribute id="XSTOV" order="51" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="REVERSAL_DOC_FLAG" order="51" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="XSTOV"/>
       <keyMapping columnObjectName="V_BSAD" columnName="XSTOV"/>
     </attribute>
@@ -223,39 +223,39 @@
       <descriptions defaultDescription="PSWBT"/>
       <keyMapping columnObjectName="V_BSAD" columnName="PSWBT"/>
     </attribute>
-    <attribute id="VBEL2" order="54" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="SALES_DOCUMENT_NO" order="54" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="VBEL2"/>
       <keyMapping columnObjectName="V_BSAD" columnName="VBEL2"/>
     </attribute>
-    <attribute id="POSN2" order="55" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="SALES_DOCUMENT_ITM" order="55" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="POSN2"/>
       <keyMapping columnObjectName="V_BSAD" columnName="POSN2"/>
     </attribute>
-    <attribute id="FISTL" order="56" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="FUNDS_CENTER" order="56" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="FISTL"/>
       <keyMapping columnObjectName="V_BSAD" columnName="FISTL"/>
     </attribute>
-    <attribute id="GEBER" order="57" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="FUND" order="57" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="GEBER"/>
       <keyMapping columnObjectName="V_BSAD" columnName="GEBER"/>
     </attribute>
-    <attribute id="XNEGP" order="58" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="NEGATIVE_PSTNG_FLG" order="58" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="XNEGP"/>
       <keyMapping columnObjectName="V_BSAD" columnName="XNEGP"/>
     </attribute>
-    <attribute id="KOSTL" order="59" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="COST_CENTER" order="59" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="KOSTL"/>
       <keyMapping columnObjectName="V_BSAD" columnName="KOSTL"/>
     </attribute>
-    <attribute id="KKBER" order="60" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="CREDIT_CONTROL_AREA" order="60" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="KKBER"/>
       <keyMapping columnObjectName="V_BSAD" columnName="KKBER"/>
     </attribute>
-    <attribute id="PRCTR" order="61" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="PROFIT_CENTER" order="61" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="PRCTR"/>
       <keyMapping columnObjectName="V_BSAD" columnName="PRCTR"/>
     </attribute>
-    <attribute id="KIDNO" order="62" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="PAYMENT_REF" order="62" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="KIDNO"/>
       <keyMapping columnObjectName="V_BSAD" columnName="KIDNO"/>
     </attribute>
@@ -263,11 +263,11 @@
       <descriptions defaultDescription="GRANT_NBR"/>
       <keyMapping columnObjectName="V_BSAD" columnName="GRANT_NBR"/>
     </attribute>
-    <attribute id="FKBER" order="64" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="FUNCTIONAL_AREA" order="64" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="FKBER"/>
       <keyMapping columnObjectName="V_BSAD" columnName="FKBER"/>
     </attribute>
-    <attribute id="HKTID" order="65" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="ACCTN_DET_ID" order="65" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="HKTID"/>
       <keyMapping columnObjectName="V_BSAD" columnName="HKTID"/>
     </attribute>
