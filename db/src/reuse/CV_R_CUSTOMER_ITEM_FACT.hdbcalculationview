@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="finance.db.reuse::CV_R_CUSTOMER_ITEM_FACT" applyPrivilegeType="NONE" dataCategory="CUBE" schemaVersion="3.0" outputViewType="Aggregation" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
-<descriptions defaultDescription="AR Customer Item Fact"/>
+<descriptions defaultDescription="AR Customer Item Fact."/>
 <localVariables/>
 <variableMappings/>
 <dataSources>
@@ -250,7 +250,7 @@
       <viewAttribute id="SOURCE"/>
     </viewAttributes>
     <calculatedViewAttributes/>
-    <input node="BSAD">
+    <input node="BSAD" emptyUnionBehavior="NO_ROW">
       <mapping xsi:type="Calculation:AttributeMapping" target="CLIENT" source="CLIENT"/>
       <mapping xsi:type="Calculation:AttributeMapping" target="COMP_CODE_ID" source="COMP_CODE_ID"/>
       <mapping xsi:type="Calculation:AttributeMapping" target="CUSTOMER_ID" source="CUSTOMER_ID"/>
@@ -324,7 +324,7 @@
       <mapping xsi:type="Calculation:AttributeMapping" target="AMT_LOC" source="AMT_LOC"/>
       <mapping xsi:type="Calculation:AttributeMapping" target="SOURCE" source="SOURCE"/>
     </input>
-    <input node="BSID">
+    <input node="BSID" emptyUnionBehavior="NO_ROW">
       <mapping xsi:type="Calculation:AttributeMapping" target="CLIENT" source="CLIENT"/>
       <mapping xsi:type="Calculation:AttributeMapping" target="COMP_CODE_ID" source="COMP_CODE_ID"/>
       <mapping xsi:type="Calculation:AttributeMapping" target="CUSTOMER_ID" source="CUSTOMER_ID"/>
@@ -419,7 +419,14 @@
       <keyMapping columnObjectName="Union_1" columnName="SOURCE"/>
     </attribute>
   </attributes>
-  <calculatedAttributes/>
+  <calculatedAttributes>
+    <calculatedAttribute id="TEST" order="6" semanticType="empty" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Teste"/>
+      <keyCalculation datatype="INTEGER" expressionLanguage="SQL">
+        <formula>10</formula>
+      </keyCalculation>
+    </calculatedAttribute>
+  </calculatedAttributes>
   <baseMeasures>
     <measure id="AMT_LOC" order="3" aggregationType="sum" measureType="simple">
       <descriptions defaultDescription="AMT_LOC"/>
