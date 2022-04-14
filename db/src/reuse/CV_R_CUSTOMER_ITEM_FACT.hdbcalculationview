@@ -419,14 +419,7 @@
       <keyMapping columnObjectName="Union_1" columnName="SOURCE"/>
     </attribute>
   </attributes>
-  <calculatedAttributes>
-    <calculatedAttribute id="TEST" order="6" semanticType="empty" displayAttribute="false" attributeHierarchyActive="false">
-      <descriptions defaultDescription="Teste"/>
-      <keyCalculation datatype="INTEGER" expressionLanguage="SQL">
-        <formula>10</formula>
-      </keyCalculation>
-    </calculatedAttribute>
-  </calculatedAttributes>
+  <calculatedAttributes/>
   <baseMeasures>
     <measure id="AMT_LOC" order="3" aggregationType="sum" measureType="simple">
       <descriptions defaultDescription="AMT_LOC"/>
